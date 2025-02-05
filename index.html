@@ -37,10 +37,10 @@
     <header class="w-full md:container mx-auto  bg-[#EFEBE3]">
         <!-- nerber section -->
         <nav class=" bg-[#EFEBE3]">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
+            <div class="navbar bg-base-100 flex justify-between items-center px-4 md:px-8">
+                <div class="flex items-center gep-4 navbar-start">
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <button tabindex="0" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -53,7 +53,7 @@
                           stroke-width="2"
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
-                    </div>
+                    </button>
                     <ul
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
@@ -72,17 +72,17 @@
                   </ul>
                 </div>
                 <div class="navbar-end flex">
-                  <a class="p-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <a class="p-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                   </svg>
                   </a>
-                  <a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <a class="pr-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                   </svg>
                   </a>
                 </div>
 
-                <div class="p-4">
+                <div class="flex gap-2">
                     <a class="btn border-1 border-[#179800]">Login</a>
                   <a class="btn btn-active bg-button-primary text-white scroll-p-px">Register</a>
                 </div>
@@ -139,7 +139,7 @@
       </section>
 
       <!-- Products items -->
-      <section class="flex items-center gap-4 bg-[#EFEBE3] pt-10 ">
+      <section class="flex flex-col md:flex-row items-center gap-4 bg-[#EFEBE3] pt-10 ">
 
         <div class="md:py-8 lg-py-8 w-1/2">
           <h1 class="font-bold text-3xl pb-8 pt-14"><span class="text-[#179800]">Popular Products</span></h1>
@@ -152,14 +152,14 @@
           </div>
         </div>
         <!-- items section -->
-        <div class="w-1/2">
-          <div class="box-border size-50 grid grid-cols-1  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-40">
+        <div class="w-full md:w-1/2">
+          <div class="box-border items-center size-50 grid grid-cols-2 md:none lg:grid-cols-3 gap-6 pt-10">
 
             <!-- card 1 -->
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/onion.png"
                     alt="" />
                 </figure>
@@ -174,10 +174,10 @@
               </div>
             </div>
             <!-- card 2 -->
-            <div class="card lg:card-side bg-base-100 shadow-xl pt-6">
+            <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/tomato.png"
                     alt="" />
                 </figure>
@@ -213,7 +213,7 @@
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/potato.png"
                     alt="" />
                 </figure>
@@ -231,7 +231,7 @@
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/onion.png"
                     alt="" />
                 </figure>
@@ -249,7 +249,7 @@
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/tomato.png"
                     alt="" />
                 </figure>
@@ -285,7 +285,7 @@
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/potato.png"
                     alt="" />
                 </figure>
@@ -303,7 +303,7 @@
             <div class="card lg:card-side bg-base-100 shadow-xl">
               <div class="flex box-border">
                 <figure>
-                  <img
+                  <img class="w-full md:w-auto"
                     src="c2-assets/onion.png"
                     alt="" />
                 </figure>
@@ -327,8 +327,8 @@
       <!-- Offers section -->
        <section class="pb-40">
         <h1 class="pt-32 pb-12 font-bold text-3xl"><span class="text-[#179800]">Arrival & Offers</span></h1>
-        <div class="flex gap-4 w-full grid grid-flow">
-          <div class="flex pt-14 rounded-lg bg-[#115414] gap-8">
+        <div class="flex gap-4 w-full grid grid-cols-1 md:grid-cols-2">
+          <div class="flex pt-14 rounded-lg bg-[#115414] gap-8 w-full md:1/2">
             <div>
               <img class="pt-8" src="c2-assets/dawat-logo.png" alt="">
               <div class="pl-8 pt-8">
@@ -340,7 +340,7 @@
               <img src="c2-assets/dawat-mock-up.png" alt="">
             </div>
           </div>
-          <div class="flex pt-14 rounded-lg bg-[#102861] w-1/2 gap-10">
+          <div class="flex pt-14 rounded-lg bg-[#102861] w-1/2 gap-10 w-full md:1/2">
             <div>
               <img class="pt-8 pl-8" src="c2-assets/india-gate-logo.png" alt="">
               <div class="pl-8 pt-8">
